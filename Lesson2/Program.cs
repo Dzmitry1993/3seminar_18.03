@@ -5,7 +5,7 @@
 782 -> 8
 918 -> 1
 */
-/*
+
 int Prompt (string message)
 {
 
@@ -25,7 +25,7 @@ if (number < 100 || number >= 1000)
 Console.WriteLine($"Введённое число `{number}`");
 int secondRank = number / 10 % 10;
 Console.WriteLine($"Вторая цифра`{secondRank}`");
-*/
+
 
 /*Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
@@ -35,7 +35,7 @@ Console.WriteLine($"Вторая цифра`{secondRank}`");
 
 32679 -> 6
 */
-/*
+
 
 int Prompt (string message)
 {
@@ -72,7 +72,7 @@ bool ValidateNumber(int number)
         Console.WriteLine(GetThirdRank(number));
     }
 
-    */
+    
 
   /*  Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
