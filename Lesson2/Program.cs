@@ -12,11 +12,11 @@ int Prompt (string message)
     System.Console.Write(message);
     string value = Console.ReadLine();
     int result = Convert.ToInt32(value);
-    return result;
+    retur78n result;
 
 }
 
-int number = Promt ("Введите трехзначное число > ");
+int number = Prompt ("Введите трехзначное число > ");
 if (number < 100 || number >= 1000)
 {
     Console.WriteLine ("Вы ввели не трёхзначное число, пожалуйста повторите ввод");
